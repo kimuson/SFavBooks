@@ -10,9 +10,13 @@ export default function PostLink() {
                 <img src={RANDOM_IMG} className="post-link-image" alt="post-cover"></img>
             </div>
             <div className="post-link-text">
-                <h2>Gatsbyでブログを作成してみた</h2>
-                <p className="post-link-body">先日、爆速なサイトを作れると噂のReact製フレームワークのGatsbyを学んでみました。</p>
-                <p className="post-link-date">2020年5月30日</p>
+                <p className="post-link-category">ビジネス</p>
+                
+                <div className="post-link-row">
+                    <h2>ビル・ゲイツ</h2>
+                    <p className="post-link-status">マイクロソフトCEO</p>
+                </div>
+                <p className="post-link-body">子供のころからたくさん本を読んで自分でものを考えろと言われて育った。<br/>両親は、本や政治や、その他いろいろなことについて、子供たちを交えて話し合った。</p>       
             </div>
         </div>
     )

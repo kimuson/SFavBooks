@@ -1,0 +1,17 @@
+.search_container {
+  box-sizing: border-box;
+  display: inline-block;
+  text-align: left;
+  padding: 10px;
+}
+.search_container input[type="text"] {
+  background: #ccddf5;
+  border: none;
+  height: 35px;
+}
+.search_container input[type="text"]:focus {
+  outline: 0;
+}
+.outer {
+  text-align: center;
+}

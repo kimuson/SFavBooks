@@ -1,14 +1,27 @@
 import React from "react"
-import { Link } from "gatsby"
-import LOGO_IMG from "../../static/logo.png"
 import "../styles/header.css"
 
 export default function Header() {
-    return (
-        <header>
-            <Link to="/">
-                <img src={LOGO_IMG} className="logo-image" alt="logo"></img>
-            </Link>
-        </header>
-    )
+  return (
+    <div>
+      <header>
+        <h1 className="site-title">
+          <a href="http://localhost:8000/">S-BOOKSHELF</a>
+        </h1>
+        <nav className="pc-nav">
+          <ul>
+            <li>
+              <a href="http://localhost:8000/">ABOUT</a>
+            </li>
+            <li>
+              <a href="http://localhost:8000/">CONTACT</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <div className="main-visual">
+        <h2>A favorite book of successful people</h2>
+      </div>
+    </div>
+  )
 }

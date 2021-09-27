@@ -1,3 +1,64 @@
-.logo-image{
-    width: 120px;
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", メイリオ,
+    Meiryo, "ＭＳ Ｐゴシック", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: #e6e6e6;
+}
+
+header {
+  width: 100%;
+  padding: 30px 4% 10px;
+  background-color: transparent;
+  position: fixed;
+  top: 0;
+  display: flex;
+  align-items: center;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+  font-family: "Andale Mono, monospace";
+  color: #ffffff;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  display: flex;
+}
+
+li {
+  margin: 0 0 0 15px;
+  font-size: 14px;
+}
+
+nav {
+  margin: 0 0 0 auto;
+}
+
+.main-visual {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  width: 100%;
+  /* background-size: cover; */
+  background: url("../../static/alfons-morale.png") center / cover no-repeat;
+}
+h2 {
+  margin: 0;
+  font-size: 30px;
+  font-weight: normal;
+  color: #fff;
 }
