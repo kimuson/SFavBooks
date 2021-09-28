@@ -2,14 +2,12 @@ import React from "react"
 import "../styles/test_grid.css"
 import booksImg from "../../static/books_img.png"
 
-const RANDOM_IMG = "https://source.unsplash.com/collection/175083/640x360"
-
 export default function test_grid() {
   return (
-    <div class="grid">
-      <div class="col">
-        <div class="thumb"></div>
-        <div class="col-body">
+    <div className="grid">
+      <div className="col">
+        <div className="thumb"></div>
+        <div className="col-body">
           <div>
             <img
               src={booksImg}
@@ -17,8 +15,8 @@ export default function test_grid() {
               alt="post-cover"
             ></img>
           </div>
-          <p class="col-person">ビルゲイツ</p>
-          <p class="col-status">Microsoft CEO</p>
+          <p className="col-person">ビルゲイツ</p>
+          <p className="col-status">Microsoft CEO</p>
         </div>
       </div>
     </div>
