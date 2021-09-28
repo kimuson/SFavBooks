@@ -1,10 +1,10 @@
 import React from "react"
-import "../styles/test.css"
+import "../styles/test_grid.css"
 import booksImg from "../../static/books_img.png"
 
 const RANDOM_IMG = "https://source.unsplash.com/collection/175083/640x360"
 
-export default function Test() {
+export default function test_grid() {
   return (
     <div class="grid">
       <div class="col">
