@@ -13,8 +13,7 @@ body {
 header {
   width: 100%;
   padding: 30px 4% 10px;
-  background-color: transparent;
-  position: fixed;
+  background-color: #000000;
   top: 0;
   display: flex;
   align-items: center;
@@ -24,6 +23,10 @@ h1 {
   margin: 0;
   padding: 0;
   font-size: 20px;
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+  max-width: 500px;
 }
 
 a {
@@ -43,22 +46,27 @@ li {
   font-size: 14px;
 }
 
-nav {
-  margin: 0 0 0 auto;
+.header-nav {
+  display: flex;
+  height: 60px;
 }
 
 .main-visual {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 300px;
+  height: 150px;
   width: 100%;
   /* background-size: cover; */
   background: url("../../static/alfons-morale.png") center / cover no-repeat;
 }
 h2 {
   margin: 0;
-  font-size: 30px;
+  font-size: 16px;
   font-weight: normal;
   color: #fff;
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+  max-width: 500px;
 }

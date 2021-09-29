@@ -8,13 +8,11 @@ export default function Person_list() {
       <div className="col">
         <div className="thumb"></div>
         <div className="col-body">
-          <div>
-            <img
-              src={booksImg}
-              className="post-link-image"
-              alt="post-cover"
-            ></img>
-          </div>
+          <img
+            src={booksImg}
+            className="post-link-image"
+            alt="post-cover"
+          ></img>
           <p className="col-person">ビルゲイツ</p>
           <p className="col-status">Microsoft CEO</p>
         </div>
